@@ -32,7 +32,7 @@ cd RemaxDos
 ```
 Chmod file install
 ```
-chmod +x install.bin
+chmod +x install.bin && pip3 install pyautogui
 ```
 Install 
 ```
