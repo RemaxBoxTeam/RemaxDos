@@ -1,0 +1,753 @@
+[2021-09-28T09:09:13.184845 3043 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) compression = true
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) debug = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) disable = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.184845 3043 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) path = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) recache = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) stats = true
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.184845 3043 ] Config: (default) umask = 
+[2021-09-28T09:09:13.184942 3043 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __constants.c
+[2021-09-28T09:09:13.184952 3043 ] Hostname: hashashin
+[2021-09-28T09:09:13.184957 3043 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.184962 3043 ] Compiler type: gcc
+[2021-09-28T09:09:13.185064 3043 ] Source file: __constants.c
+[2021-09-28T09:09:13.185077 3043 ] Object file: __constants.o
+[2021-09-28T09:09:13.185103 3043 ] Trying direct lookup
+[2021-09-28T09:09:13.185168 3043 ] Retrieved 8020i3e1dgkkavtfi6icr9ti3eb565q4k from primary storage (/root/.cache/Nuitka/ccache/8/0/20i3e1dgkkavtfi6icr9ti3eb565q4kM)
+[2021-09-28T09:09:13.185192 3043 ] Looking for result key in /root/.cache/Nuitka/ccache/8/0/20i3e1dgkkavtfi6icr9ti3eb565q4kM
+[2021-09-28T09:09:13.189305 3043 ] Got result key from manifest
+[2021-09-28T09:09:13.189381 3043 ] Retrieved 19da40idtsfj6qpfkrfmbd2fn5ts7oglg from primary storage (/root/.cache/Nuitka/ccache/1/9/da40idtsfj6qpfkrfmbd2fn5ts7oglgR)
+[2021-09-28T09:09:13.189408 3043 ] Reading result /root/.cache/Nuitka/ccache/1/9/da40idtsfj6qpfkrfmbd2fn5ts7oglgR
+[2021-09-28T09:09:13.189512 3043 ] Reading embedded entry #0 .o (4664 bytes)
+[2021-09-28T09:09:13.189532 3043 ] Writing to __constants.o
+[2021-09-28T09:09:13.189624 3043 ] Succeeded getting cached result
+[2021-09-28T09:09:13.189647 3043 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.189657 3043 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.189718 3043 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/e/3/stats.lock: No such file or directory
+[2021-09-28T09:09:13.189814 3043 ] Acquired lock /root/.cache/Nuitka/ccache/e/3/stats.lock
+[2021-09-28T09:09:13.190000 3043 ] Releasing lock /root/.cache/Nuitka/ccache/e/3/stats.lock
+[2021-09-28T09:09:13.190038 3043 ] Unlink /root/.cache/Nuitka/ccache/e/3/stats.lock
+[2021-09-28T09:09:13.202876 3046 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) compression = true
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) debug = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.202876 3046 ] Config: (environment) disable = true
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.202876 3046 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) path = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) recache = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) stats = true
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.202876 3046 ] Config: (default) umask = 
+[2021-09-28T09:09:13.202991 3046 ] ccache is disabled
+[2021-09-28T09:09:13.203022 3046 ] Failed; falling back to running the real compiler
+[2021-09-28T09:09:13.203037 3046 ] Executing /usr/bin/gcc -o __constants_data.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __constants_data.c
+[2021-09-28T09:09:13.203045 3046 ] Result: disabled
+[2021-09-28T09:09:13.212496 3051 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) compression = true
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) debug = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) disable = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.212496 3051 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) path = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) recache = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) stats = true
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.212496 3051 ] Config: (default) umask = 
+[2021-09-28T09:09:13.212614 3051 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __helpers.c
+[2021-09-28T09:09:13.212643 3051 ] Hostname: hashashin
+[2021-09-28T09:09:13.212651 3051 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.212658 3051 ] Compiler type: gcc
+[2021-09-28T09:09:13.212909 3051 ] Source file: __helpers.c
+[2021-09-28T09:09:13.212926 3051 ] Object file: __helpers.o
+[2021-09-28T09:09:13.212960 3051 ] Trying direct lookup
+[2021-09-28T09:09:13.213125 3051 ] Retrieved ac83nf1aug35jp0j58e5aqn0i0pi8aa2g from primary storage (/root/.cache/Nuitka/ccache/a/c/83nf1aug35jp0j58e5aqn0i0pi8aa2gM)
+[2021-09-28T09:09:13.213152 3051 ] Looking for result key in /root/.cache/Nuitka/ccache/a/c/83nf1aug35jp0j58e5aqn0i0pi8aa2gM
+[2021-09-28T09:09:13.219970 3051 ] Got result key from manifest
+[2021-09-28T09:09:13.220035 3051 ] Retrieved bd8f7s8gjo5rvftkt3bk0a21ahbv73mho from primary storage (/root/.cache/Nuitka/ccache/b/d/8f7s8gjo5rvftkt3bk0a21ahbv73mhoR)
+[2021-09-28T09:09:13.220060 3051 ] Reading result /root/.cache/Nuitka/ccache/b/d/8f7s8gjo5rvftkt3bk0a21ahbv73mhoR
+[2021-09-28T09:09:13.220348 3051 ] Reading embedded entry #0 .o (12728 bytes)
+[2021-09-28T09:09:13.220369 3051 ] Writing to __helpers.o
+[2021-09-28T09:09:13.220472 3051 ] Succeeded getting cached result
+[2021-09-28T09:09:13.220495 3051 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.220505 3051 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.220655 3051 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/e/b/stats.lock: No such file or directory
+[2021-09-28T09:09:13.220753 3051 ] Acquired lock /root/.cache/Nuitka/ccache/e/b/stats.lock
+[2021-09-28T09:09:13.220952 3051 ] Releasing lock /root/.cache/Nuitka/ccache/e/b/stats.lock
+[2021-09-28T09:09:13.220989 3051 ] Unlink /root/.cache/Nuitka/ccache/e/b/stats.lock
+[2021-09-28T09:09:13.231184 3054 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) compression = true
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) debug = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) disable = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.231184 3054 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) path = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) recache = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) stats = true
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.231184 3054 ] Config: (default) umask = 
+[2021-09-28T09:09:13.231329 3054 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __loader.c
+[2021-09-28T09:09:13.231370 3054 ] Hostname: hashashin
+[2021-09-28T09:09:13.231381 3054 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.231390 3054 ] Compiler type: gcc
+[2021-09-28T09:09:13.231531 3054 ] Source file: __loader.c
+[2021-09-28T09:09:13.231549 3054 ] Object file: __loader.o
+[2021-09-28T09:09:13.231587 3054 ] Trying direct lookup
+[2021-09-28T09:09:13.231659 3054 ] Retrieved 51dcbh0b17mh57tvqjepceuq9qv8dqss2 from primary storage (/root/.cache/Nuitka/ccache/5/1/dcbh0b17mh57tvqjepceuq9qv8dqss2M)
+[2021-09-28T09:09:13.231684 3054 ] Looking for result key in /root/.cache/Nuitka/ccache/5/1/dcbh0b17mh57tvqjepceuq9qv8dqss2M
+[2021-09-28T09:09:13.236692 3054 ] Got result key from manifest
+[2021-09-28T09:09:13.236751 3054 ] Retrieved b2e42r3uvgv1fju628p5sijtmjvpgv1ju from primary storage (/root/.cache/Nuitka/ccache/b/2/e42r3uvgv1fju628p5sijtmjvpgv1juR)
+[2021-09-28T09:09:13.236781 3054 ] Reading result /root/.cache/Nuitka/ccache/b/2/e42r3uvgv1fju628p5sijtmjvpgv1juR
+[2021-09-28T09:09:13.236903 3054 ] Reading embedded entry #0 .o (2648 bytes)
+[2021-09-28T09:09:13.236921 3054 ] Writing to __loader.o
+[2021-09-28T09:09:13.236999 3054 ] Succeeded getting cached result
+[2021-09-28T09:09:13.237020 3054 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.237029 3054 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.237098 3054 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/e/e/stats.lock: No such file or directory
+[2021-09-28T09:09:13.237192 3054 ] Acquired lock /root/.cache/Nuitka/ccache/e/e/stats.lock
+[2021-09-28T09:09:13.237396 3054 ] Releasing lock /root/.cache/Nuitka/ccache/e/e/stats.lock
+[2021-09-28T09:09:13.237432 3054 ] Unlink /root/.cache/Nuitka/ccache/e/e/stats.lock
+[2021-09-28T09:09:13.246881 3057 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) compression = true
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) debug = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) disable = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.246881 3057 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) path = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) recache = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) stats = true
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.246881 3057 ] Config: (default) umask = 
+[2021-09-28T09:09:13.247008 3057 ] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src module.__main__.c
+[2021-09-28T09:09:13.247042 3057 ] Hostname: hashashin
+[2021-09-28T09:09:13.247052 3057 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.247060 3057 ] Compiler type: gcc
+[2021-09-28T09:09:13.247201 3057 ] Source file: module.__main__.c
+[2021-09-28T09:09:13.247220 3057 ] Object file: module.__main__.o
+[2021-09-28T09:09:13.247272 3057 ] Trying direct lookup
+[2021-09-28T09:09:13.247480 3057 ] No ed94o0ngrch4t1i09ps3ddj8g178ol4em in primary storage
+[2021-09-28T09:09:13.247641 3057 ] Running preprocessor
+[2021-09-28T09:09:13.247660 3057 ] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src -E module.__main__.c
+[2021-09-28T09:09:13.261924 3062 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) compression = true
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) debug = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) disable = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.261924 3062 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) path = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) recache = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) stats = true
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.261924 3062 ] Config: (default) umask = 
+[2021-09-28T09:09:13.262056 3062 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/MainProgram.c
+[2021-09-28T09:09:13.262076 3062 ] Hostname: hashashin
+[2021-09-28T09:09:13.262085 3062 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.262093 3062 ] Compiler type: gcc
+[2021-09-28T09:09:13.262250 3062 ] Source file: static_src/MainProgram.c
+[2021-09-28T09:09:13.262265 3062 ] Object file: static_src/MainProgram.o
+[2021-09-28T09:09:13.262308 3062 ] Trying direct lookup
+[2021-09-28T09:09:13.262448 3062 ] Retrieved e88cksilm14s9989q0mhlmc31qumo9eu6 from primary storage (/root/.cache/Nuitka/ccache/e/8/8cksilm14s9989q0mhlmc31qumo9eu6M)
+[2021-09-28T09:09:13.262471 3062 ] Looking for result key in /root/.cache/Nuitka/ccache/e/8/8cksilm14s9989q0mhlmc31qumo9eu6M
+[2021-09-28T09:09:13.269567 3062 ] Got result key from manifest
+[2021-09-28T09:09:13.269617 3062 ] Retrieved 776a26kg3k39qfhgkkjegv49kghliu96i from primary storage (/root/.cache/Nuitka/ccache/7/7/6a26kg3k39qfhgkkjegv49kghliu96iR)
+[2021-09-28T09:09:13.269642 3062 ] Reading result /root/.cache/Nuitka/ccache/7/7/6a26kg3k39qfhgkkjegv49kghliu96iR
+[2021-09-28T09:09:13.269806 3062 ] Reading embedded entry #0 .o (7304 bytes)
+[2021-09-28T09:09:13.269830 3062 ] Writing to static_src/MainProgram.o
+[2021-09-28T09:09:13.269933 3062 ] Succeeded getting cached result
+[2021-09-28T09:09:13.269955 3062 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.269964 3062 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.279033 3065 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) compression = true
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) debug = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) disable = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.279033 3065 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) path = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) recache = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) stats = true
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.279033 3065 ] Config: (default) umask = 
+[2021-09-28T09:09:13.279162 3065 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2021-09-28T09:09:13.279187 3065 ] Hostname: hashashin
+[2021-09-28T09:09:13.279195 3065 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.279203 3065 ] Compiler type: gcc
+[2021-09-28T09:09:13.279355 3065 ] Source file: static_src/CompiledCellType.c
+[2021-09-28T09:09:13.279369 3065 ] Object file: static_src/CompiledCellType.o
+[2021-09-28T09:09:13.279397 3065 ] Trying direct lookup
+[2021-09-28T09:09:13.279479 3065 ] Retrieved afa6fnf6ch2mk1c1fk3eq5m5bbbget9v6 from primary storage (/root/.cache/Nuitka/ccache/a/f/a6fnf6ch2mk1c1fk3eq5m5bbbget9v6M)
+[2021-09-28T09:09:13.279501 3065 ] Looking for result key in /root/.cache/Nuitka/ccache/a/f/a6fnf6ch2mk1c1fk3eq5m5bbbget9v6M
+[2021-09-28T09:09:13.283554 3062 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/f/6/stats.lock: No such file or directory
+[2021-09-28T09:09:13.283690 3062 ] Acquired lock /root/.cache/Nuitka/ccache/f/6/stats.lock
+[2021-09-28T09:09:13.283909 3062 ] Releasing lock /root/.cache/Nuitka/ccache/f/6/stats.lock
+[2021-09-28T09:09:13.283950 3062 ] Unlink /root/.cache/Nuitka/ccache/f/6/stats.lock
+[2021-09-28T09:09:13.287638 3065 ] Got result key from manifest
+[2021-09-28T09:09:13.287680 3065 ] Retrieved 6278klbe4325me0qbr3lmc683k4ss4rf8 from primary storage (/root/.cache/Nuitka/ccache/6/2/78klbe4325me0qbr3lmc683k4ss4rf8R)
+[2021-09-28T09:09:13.287705 3065 ] Reading result /root/.cache/Nuitka/ccache/6/2/78klbe4325me0qbr3lmc683k4ss4rf8R
+[2021-09-28T09:09:13.287861 3065 ] Reading embedded entry #0 .o (7608 bytes)
+[2021-09-28T09:09:13.287877 3065 ] Writing to static_src/CompiledCellType.o
+[2021-09-28T09:09:13.287962 3065 ] Succeeded getting cached result
+[2021-09-28T09:09:13.287984 3065 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.287992 3065 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.288063 3065 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/f/9/stats.lock: No such file or directory
+[2021-09-28T09:09:13.288168 3065 ] Acquired lock /root/.cache/Nuitka/ccache/f/9/stats.lock
+[2021-09-28T09:09:13.288366 3065 ] Releasing lock /root/.cache/Nuitka/ccache/f/9/stats.lock
+[2021-09-28T09:09:13.288404 3065 ] Unlink /root/.cache/Nuitka/ccache/f/9/stats.lock
+[2021-09-28T09:09:13.304486 3068 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) compression = true
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) debug = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) disable = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.304486 3068 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) path = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) recache = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) stats = true
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.304486 3068 ] Config: (default) umask = 
+[2021-09-28T09:09:13.304599 3068 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2021-09-28T09:09:13.304629 3068 ] Hostname: hashashin
+[2021-09-28T09:09:13.304638 3068 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.304645 3068 ] Compiler type: gcc
+[2021-09-28T09:09:13.304787 3068 ] Source file: static_src/CompiledFunctionType.c
+[2021-09-28T09:09:13.304803 3068 ] Object file: static_src/CompiledFunctionType.o
+[2021-09-28T09:09:13.304832 3068 ] Trying direct lookup
+[2021-09-28T09:09:13.305070 3068 ] Retrieved 7abemvkf2bpli9ep35a00gq8ilhaosnq4 from primary storage (/root/.cache/Nuitka/ccache/7/a/bemvkf2bpli9ep35a00gq8ilhaosnq4M)
+[2021-09-28T09:09:13.305100 3068 ] Looking for result key in /root/.cache/Nuitka/ccache/7/a/bemvkf2bpli9ep35a00gq8ilhaosnq4M
+[2021-09-28T09:09:13.311200 3068 ] Got result key from manifest
+[2021-09-28T09:09:13.311242 3068 ] Retrieved c65erq5u94b16sts6ln5c9rhtahserqmu from primary storage (/root/.cache/Nuitka/ccache/c/6/5erq5u94b16sts6ln5c9rhtahserqmuR)
+[2021-09-28T09:09:13.311264 3068 ] Reading result /root/.cache/Nuitka/ccache/c/6/5erq5u94b16sts6ln5c9rhtahserqmuR
+[2021-09-28T09:09:13.311577 3068 ] Reading embedded entry #0 .o (51856 bytes)
+[2021-09-28T09:09:13.311600 3068 ] Writing to static_src/CompiledFunctionType.o
+[2021-09-28T09:09:13.311784 3068 ] Succeeded getting cached result
+[2021-09-28T09:09:13.311809 3068 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.311820 3068 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.311885 3068 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/f/c/stats.lock: No such file or directory
+[2021-09-28T09:09:13.311988 3068 ] Acquired lock /root/.cache/Nuitka/ccache/f/c/stats.lock
+[2021-09-28T09:09:13.312188 3068 ] Releasing lock /root/.cache/Nuitka/ccache/f/c/stats.lock
+[2021-09-28T09:09:13.312239 3068 ] Unlink /root/.cache/Nuitka/ccache/f/c/stats.lock
+[2021-09-28T09:09:13.332596 3071 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) compression = true
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) debug = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) disable = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.332596 3071 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) path = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) recache = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) stats = true
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.332596 3071 ] Config: (default) umask = 
+[2021-09-28T09:09:13.332729 3071 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2021-09-28T09:09:13.332746 3071 ] Hostname: hashashin
+[2021-09-28T09:09:13.332754 3071 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.332762 3071 ] Compiler type: gcc
+[2021-09-28T09:09:13.333020 3071 ] Source file: static_src/CompiledGeneratorType.c
+[2021-09-28T09:09:13.333049 3071 ] Object file: static_src/CompiledGeneratorType.o
+[2021-09-28T09:09:13.333083 3071 ] Trying direct lookup
+[2021-09-28T09:09:13.333574 3071 ] Retrieved 552efl52rep0jmud41hgma3n1fgkvv9qk from primary storage (/root/.cache/Nuitka/ccache/5/5/2efl52rep0jmud41hgma3n1fgkvv9qkM)
+[2021-09-28T09:09:13.333608 3071 ] Looking for result key in /root/.cache/Nuitka/ccache/5/5/2efl52rep0jmud41hgma3n1fgkvv9qkM
+[2021-09-28T09:09:13.341689 3071 ] Got result key from manifest
+[2021-09-28T09:09:13.341738 3071 ] Retrieved a6c4psf69pa8sqqiebh75egrk3gveogfe from primary storage (/root/.cache/Nuitka/ccache/a/6/c4psf69pa8sqqiebh75egrk3gveogfeR)
+[2021-09-28T09:09:13.341762 3071 ] Reading result /root/.cache/Nuitka/ccache/a/6/c4psf69pa8sqqiebh75egrk3gveogfeR
+[2021-09-28T09:09:13.342288 3071 ] Reading embedded entry #0 .o (124168 bytes)
+[2021-09-28T09:09:13.342308 3071 ] Writing to static_src/CompiledGeneratorType.o
+[2021-09-28T09:09:13.342593 3071 ] Succeeded getting cached result
+[2021-09-28T09:09:13.342615 3071 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.342623 3071 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.353593 3071 ] Acquired lock /root/.cache/Nuitka/ccache/f/f/stats.lock
+[2021-09-28T09:09:13.364197 3057 ] Got result key from preprocessor
+[2021-09-28T09:09:13.364206 3071 ] Releasing lock /root/.cache/Nuitka/ccache/f/f/stats.lock
+[2021-09-28T09:09:13.364261 3057 ] No 4405ti8cubs8l8hnlvt15pcii9ogd4mqu in primary storage
+[2021-09-28T09:09:13.364263 3071 ] Unlink /root/.cache/Nuitka/ccache/f/f/stats.lock
+[2021-09-28T09:09:13.364282 3057 ] Running real compiler
+[2021-09-28T09:09:13.364681 3057 ] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.__main__.o module.__main__.c
+[2021-09-28T09:09:13.471033 3078 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) compression = true
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) debug = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) disable = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.471033 3078 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) path = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) recache = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) stats = true
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.471033 3078 ] Config: (default) umask = 
+[2021-09-28T09:09:13.471872 3078 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledCodeHelpers.c
+[2021-09-28T09:09:13.471939 3078 ] Hostname: hashashin
+[2021-09-28T09:09:13.471950 3078 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.471958 3078 ] Compiler type: gcc
+[2021-09-28T09:09:13.472123 3078 ] Source file: static_src/CompiledCodeHelpers.c
+[2021-09-28T09:09:13.472139 3078 ] Object file: static_src/CompiledCodeHelpers.o
+[2021-09-28T09:09:13.472176 3078 ] Trying direct lookup
+[2021-09-28T09:09:13.472397 3078 ] Retrieved 9348lek5td11s6rfju3r9g4g1elutoos6 from primary storage (/root/.cache/Nuitka/ccache/9/3/48lek5td11s6rfju3r9g4g1elutoos6M)
+[2021-09-28T09:09:13.472428 3078 ] Looking for result key in /root/.cache/Nuitka/ccache/9/3/48lek5td11s6rfju3r9g4g1elutoos6M
+[2021-09-28T09:09:13.488687 3078 ] Got result key from manifest
+[2021-09-28T09:09:13.488749 3078 ] Retrieved 7177mpo1dk4r3d48205eilubsrmnt2odi from primary storage (/root/.cache/Nuitka/ccache/7/1/77mpo1dk4r3d48205eilubsrmnt2odiR)
+[2021-09-28T09:09:13.488774 3078 ] Reading result /root/.cache/Nuitka/ccache/7/1/77mpo1dk4r3d48205eilubsrmnt2odiR
+[2021-09-28T09:09:13.489268 3078 ] Reading embedded entry #0 .o (693520 bytes)
+[2021-09-28T09:09:13.489293 3078 ] Writing to static_src/CompiledCodeHelpers.o
+[2021-09-28T09:09:13.492150 3078 ] Succeeded getting cached result
+[2021-09-28T09:09:13.492187 3078 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.492197 3078 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.492259 3078 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/0/6/stats.lock: No such file or directory
+[2021-09-28T09:09:13.492368 3078 ] Acquired lock /root/.cache/Nuitka/ccache/0/6/stats.lock
+[2021-09-28T09:09:13.492576 3078 ] Releasing lock /root/.cache/Nuitka/ccache/0/6/stats.lock
+[2021-09-28T09:09:13.492612 3078 ] Unlink /root/.cache/Nuitka/ccache/0/6/stats.lock
+[2021-09-28T09:09:13.539032 3082 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) compression = true
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) debug = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) disable = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.539032 3082 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) path = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) recache = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) stats = true
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.539032 3082 ] Config: (default) umask = 
+[2021-09-28T09:09:13.547615 3082 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2021-09-28T09:09:13.547664 3082 ] Hostname: hashashin
+[2021-09-28T09:09:13.547675 3082 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.547683 3082 ] Compiler type: gcc
+[2021-09-28T09:09:13.547855 3082 ] Source file: static_src/InspectPatcher.c
+[2021-09-28T09:09:13.547876 3082 ] Object file: static_src/InspectPatcher.o
+[2021-09-28T09:09:13.547918 3082 ] Trying direct lookup
+[2021-09-28T09:09:13.548040 3082 ] Retrieved 9c98tji2m0l0tpijl27sgppbi5kj7kgg8 from primary storage (/root/.cache/Nuitka/ccache/9/c/98tji2m0l0tpijl27sgppbi5kj7kgg8M)
+[2021-09-28T09:09:13.548073 3082 ] Looking for result key in /root/.cache/Nuitka/ccache/9/c/98tji2m0l0tpijl27sgppbi5kj7kgg8M
+[2021-09-28T09:09:13.563376 3082 ] Got result key from manifest
+[2021-09-28T09:09:13.565719 3085 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) base_dir = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) compiler = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) compiler_type = auto
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) compression = true
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) compression_level = 0
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) cpp_extension = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) debug = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) debug_dir = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) depend_mode = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) direct_mode = true
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) disable = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) file_clone = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) hard_link = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) hash_dir = true
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) ignore_options = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) inode_cache = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:09:13.565719 3085 ] Config: (environment) log_file = /root/RemaxDos/lib/WifiDeauth.build/ccache-3032.txt
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) max_files = 0
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) path = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) prefix_command = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) read_only = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) read_only_direct = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) recache = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) reshare = false
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) secondary_storage = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) sloppiness = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) stats = true
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) stats_log = 
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:09:13.565719 3085 ] Config: (default) umask = 
+[2021-09-28T09:09:13.565876 3085 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/MetaPathBasedLoader.c
+[2021-09-28T09:09:13.565914 3085 ] Hostname: hashashin
+[2021-09-28T09:09:13.565925 3085 ] Working directory: /root/RemaxDos/lib/WifiDeauth.build
+[2021-09-28T09:09:13.565934 3085 ] Compiler type: gcc
+[2021-09-28T09:09:13.566088 3085 ] Source file: static_src/MetaPathBasedLoader.c
+[2021-09-28T09:09:13.566103 3085 ] Object file: static_src/MetaPathBasedLoader.o
+[2021-09-28T09:09:13.566135 3085 ] Trying direct lookup
+[2021-09-28T09:09:13.566323 3085 ] Retrieved 59fdc2ekp0q0913dj9khh2elpg3r3cqce from primary storage (/root/.cache/Nuitka/ccache/5/9/fdc2ekp0q0913dj9khh2elpg3r3cqceM)
+[2021-09-28T09:09:13.566372 3085 ] Looking for result key in /root/.cache/Nuitka/ccache/5/9/fdc2ekp0q0913dj9khh2elpg3r3cqceM
+[2021-09-28T09:09:13.569375 3082 ] Retrieved 99cdt5regf4bfaaan3bt2hgtkfeo87qoe from primary storage (/root/.cache/Nuitka/ccache/9/9/cdt5regf4bfaaan3bt2hgtkfeo87qoeR)
+[2021-09-28T09:09:13.569420 3082 ] Reading result /root/.cache/Nuitka/ccache/9/9/cdt5regf4bfaaan3bt2hgtkfeo87qoeR
+[2021-09-28T09:09:13.569617 3082 ] Reading embedded entry #0 .o (12240 bytes)
+[2021-09-28T09:09:13.569638 3082 ] Writing to static_src/InspectPatcher.o
+[2021-09-28T09:09:13.569743 3082 ] Succeeded getting cached result
+[2021-09-28T09:09:13.569765 3082 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.569775 3082 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.569843 3082 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/0/a/stats.lock: No such file or directory
+[2021-09-28T09:09:13.569963 3082 ] Acquired lock /root/.cache/Nuitka/ccache/0/a/stats.lock
+[2021-09-28T09:09:13.570153 3082 ] Releasing lock /root/.cache/Nuitka/ccache/0/a/stats.lock
+[2021-09-28T09:09:13.570194 3082 ] Unlink /root/.cache/Nuitka/ccache/0/a/stats.lock
+[2021-09-28T09:09:13.573845 3085 ] Got result key from manifest
+[2021-09-28T09:09:13.573932 3085 ] Retrieved 6135st1644tmhpog7nb6bgnih8cerv03o from primary storage (/root/.cache/Nuitka/ccache/6/1/35st1644tmhpog7nb6bgnih8cerv03oR)
+[2021-09-28T09:09:13.573963 3085 ] Reading result /root/.cache/Nuitka/ccache/6/1/35st1644tmhpog7nb6bgnih8cerv03oR
+[2021-09-28T09:09:13.574225 3085 ] Reading embedded entry #0 .o (31472 bytes)
+[2021-09-28T09:09:13.574246 3085 ] Writing to static_src/MetaPathBasedLoader.o
+[2021-09-28T09:09:13.574400 3085 ] Succeeded getting cached result
+[2021-09-28T09:09:13.574423 3085 ] Result: direct_cache_hit
+[2021-09-28T09:09:13.574434 3085 ] Result: primary_storage_hit
+[2021-09-28T09:09:13.574496 3085 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/0/d/stats.lock: No such file or directory
+[2021-09-28T09:09:13.574595 3085 ] Acquired lock /root/.cache/Nuitka/ccache/0/d/stats.lock
+[2021-09-28T09:09:13.574793 3085 ] Releasing lock /root/.cache/Nuitka/ccache/0/d/stats.lock
+[2021-09-28T09:09:13.574832 3085 ] Unlink /root/.cache/Nuitka/ccache/0/d/stats.lock
+[2021-09-28T09:09:14.064306 3057 ] Using default compression level 1
+[2021-09-28T09:09:14.064456 3057 ] Storing result file module.__main__.o
+[2021-09-28T09:09:14.064483 3057 ] Storing embedded file #0 .o (24384 bytes) from module.__main__.o
+[2021-09-28T09:09:14.065016 3057 ] Stored 4405ti8cubs8l8hnlvt15pcii9ogd4mqu in primary storage (/root/.cache/Nuitka/ccache/4/4/05ti8cubs8l8hnlvt15pcii9ogd4mquR)
+[2021-09-28T09:09:14.065173 3057 ] Adding result key to /root/.cache/Nuitka/ccache/e/d/94o0ngrch4t1i09ps3ddj8g178ol4emM
+[2021-09-28T09:09:14.066378 3057 ] Using default compression level 1
+[2021-09-28T09:09:14.067197 3057 ] Stored ed94o0ngrch4t1i09ps3ddj8g178ol4em in primary storage (/root/.cache/Nuitka/ccache/e/d/94o0ngrch4t1i09ps3ddj8g178ol4emM)
+[2021-09-28T09:09:14.067251 3057 ] Result: cache_miss
+[2021-09-28T09:09:14.067265 3057 ] Result: direct_cache_miss
+[2021-09-28T09:09:14.067274 3057 ] Result: preprocessed_cache_miss
+[2021-09-28T09:09:14.067282 3057 ] Result: primary_storage_miss
+[2021-09-28T09:09:14.067350 3057 ] Acquired lock /root/.cache/Nuitka/ccache/e/stats.lock
+[2021-09-28T09:09:14.079113 3057 ] Releasing lock /root/.cache/Nuitka/ccache/e/stats.lock
+[2021-09-28T09:09:14.079171 3057 ] Unlink /root/.cache/Nuitka/ccache/e/stats.lock
+[2021-09-28T09:09:14.079238 3057 ] Acquired lock /root/.cache/Nuitka/ccache/4/stats.lock
+[2021-09-28T09:09:14.079436 3057 ] Releasing lock /root/.cache/Nuitka/ccache/4/stats.lock
+[2021-09-28T09:09:14.079470 3057 ] Unlink /root/.cache/Nuitka/ccache/4/stats.lock
+[2021-09-28T09:09:14.079518 3057 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.stderr.8I7etm
+[2021-09-28T09:09:14.079546 3057 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.stdout.8HRCBn
+[2021-09-28T09:09:14.079573 3057 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.71vBUn
+[2021-09-28T09:09:14.079591 3057 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.WNABen.i
+[2021-09-28T09:09:14.079891 3057 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.WNABen

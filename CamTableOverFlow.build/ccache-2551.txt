@@ -1,0 +1,753 @@
+[2021-09-28T09:03:14.283399 2561 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) compression = true
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) debug = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) disable = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.283399 2561 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) path = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) recache = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) stats = true
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.283399 2561 ] Config: (default) umask = 
+[2021-09-28T09:03:14.283530 2561 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __constants.c
+[2021-09-28T09:03:14.283547 2561 ] Hostname: hashashin
+[2021-09-28T09:03:14.283555 2561 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.283562 2561 ] Compiler type: gcc
+[2021-09-28T09:03:14.283811 2561 ] Source file: __constants.c
+[2021-09-28T09:03:14.283829 2561 ] Object file: __constants.o
+[2021-09-28T09:03:14.283865 2561 ] Trying direct lookup
+[2021-09-28T09:03:14.283968 2561 ] Retrieved 8020i3e1dgkkavtfi6icr9ti3eb565q4k from primary storage (/root/.cache/Nuitka/ccache/8/0/20i3e1dgkkavtfi6icr9ti3eb565q4kM)
+[2021-09-28T09:03:14.284032 2561 ] Looking for result key in /root/.cache/Nuitka/ccache/8/0/20i3e1dgkkavtfi6icr9ti3eb565q4kM
+[2021-09-28T09:03:14.289129 2561 ] Got result key from manifest
+[2021-09-28T09:03:14.289177 2561 ] Retrieved 19da40idtsfj6qpfkrfmbd2fn5ts7oglg from primary storage (/root/.cache/Nuitka/ccache/1/9/da40idtsfj6qpfkrfmbd2fn5ts7oglgR)
+[2021-09-28T09:03:14.289200 2561 ] Reading result /root/.cache/Nuitka/ccache/1/9/da40idtsfj6qpfkrfmbd2fn5ts7oglgR
+[2021-09-28T09:03:14.289303 2561 ] Reading embedded entry #0 .o (4664 bytes)
+[2021-09-28T09:03:14.289319 2561 ] Writing to __constants.o
+[2021-09-28T09:03:14.289415 2561 ] Succeeded getting cached result
+[2021-09-28T09:03:14.289437 2561 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.289446 2561 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.292753 2564 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) compression = true
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) debug = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.292753 2564 ] Config: (environment) disable = true
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.292753 2564 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) path = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) recache = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) stats = true
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.292753 2564 ] Config: (default) umask = 
+[2021-09-28T09:03:14.292850 2564 ] ccache is disabled
+[2021-09-28T09:03:14.292872 2564 ] Failed; falling back to running the real compiler
+[2021-09-28T09:03:14.292881 2564 ] Executing /usr/bin/gcc -o __constants_data.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __constants_data.c
+[2021-09-28T09:03:14.292886 2564 ] Result: disabled
+[2021-09-28T09:03:14.299422 2561 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/0/1/stats.lock: No such file or directory
+[2021-09-28T09:03:14.299576 2561 ] Acquired lock /root/.cache/Nuitka/ccache/0/1/stats.lock
+[2021-09-28T09:03:14.299806 2561 ] Releasing lock /root/.cache/Nuitka/ccache/0/1/stats.lock
+[2021-09-28T09:03:14.299845 2561 ] Unlink /root/.cache/Nuitka/ccache/0/1/stats.lock
+[2021-09-28T09:03:14.315559 2569 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) compression = true
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) debug = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) disable = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.315559 2569 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) path = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) recache = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) stats = true
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.315559 2569 ] Config: (default) umask = 
+[2021-09-28T09:03:14.315700 2569 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __helpers.c
+[2021-09-28T09:03:14.315735 2569 ] Hostname: hashashin
+[2021-09-28T09:03:14.315746 2569 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.315755 2569 ] Compiler type: gcc
+[2021-09-28T09:03:14.315900 2569 ] Source file: __helpers.c
+[2021-09-28T09:03:14.315914 2569 ] Object file: __helpers.o
+[2021-09-28T09:03:14.315947 2569 ] Trying direct lookup
+[2021-09-28T09:03:14.325008 2572 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) compression = true
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) debug = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) disable = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.325008 2572 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) path = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) recache = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) stats = true
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.325008 2572 ] Config: (default) umask = 
+[2021-09-28T09:03:14.325134 2572 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __loader.c
+[2021-09-28T09:03:14.325166 2572 ] Hostname: hashashin
+[2021-09-28T09:03:14.325176 2572 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.325184 2572 ] Compiler type: gcc
+[2021-09-28T09:03:14.325325 2572 ] Source file: __loader.c
+[2021-09-28T09:03:14.325355 2572 ] Object file: __loader.o
+[2021-09-28T09:03:14.325390 2572 ] Trying direct lookup
+[2021-09-28T09:03:14.325459 2572 ] Retrieved 51dcbh0b17mh57tvqjepceuq9qv8dqss2 from primary storage (/root/.cache/Nuitka/ccache/5/1/dcbh0b17mh57tvqjepceuq9qv8dqss2M)
+[2021-09-28T09:03:14.325488 2572 ] Looking for result key in /root/.cache/Nuitka/ccache/5/1/dcbh0b17mh57tvqjepceuq9qv8dqss2M
+[2021-09-28T09:03:14.330192 2572 ] Got result key from manifest
+[2021-09-28T09:03:14.330254 2572 ] Retrieved b2e42r3uvgv1fju628p5sijtmjvpgv1ju from primary storage (/root/.cache/Nuitka/ccache/b/2/e42r3uvgv1fju628p5sijtmjvpgv1juR)
+[2021-09-28T09:03:14.330282 2572 ] Reading result /root/.cache/Nuitka/ccache/b/2/e42r3uvgv1fju628p5sijtmjvpgv1juR
+[2021-09-28T09:03:14.330411 2572 ] Reading embedded entry #0 .o (2648 bytes)
+[2021-09-28T09:03:14.330429 2572 ] Writing to __loader.o
+[2021-09-28T09:03:14.330508 2572 ] Succeeded getting cached result
+[2021-09-28T09:03:14.330530 2572 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.330539 2572 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.330596 2572 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/0/c/stats.lock: No such file or directory
+[2021-09-28T09:03:14.330693 2572 ] Acquired lock /root/.cache/Nuitka/ccache/0/c/stats.lock
+[2021-09-28T09:03:14.330900 2572 ] Releasing lock /root/.cache/Nuitka/ccache/0/c/stats.lock
+[2021-09-28T09:03:14.330940 2572 ] Unlink /root/.cache/Nuitka/ccache/0/c/stats.lock
+[2021-09-28T09:03:14.333366 2569 ] Retrieved a09egmjmd74ra7e74ghh5r1u48nja8e9s from primary storage (/root/.cache/Nuitka/ccache/a/0/9egmjmd74ra7e74ghh5r1u48nja8e9sM)
+[2021-09-28T09:03:14.333418 2569 ] Looking for result key in /root/.cache/Nuitka/ccache/a/0/9egmjmd74ra7e74ghh5r1u48nja8e9sM
+[2021-09-28T09:03:14.342113 2575 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) compression = true
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) debug = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) disable = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.342113 2575 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) path = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) recache = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) stats = true
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.342113 2575 ] Config: (default) umask = 
+[2021-09-28T09:03:14.342264 2575 ] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src module.__main__.c
+[2021-09-28T09:03:14.342296 2575 ] Hostname: hashashin
+[2021-09-28T09:03:14.342305 2575 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.342313 2575 ] Compiler type: gcc
+[2021-09-28T09:03:14.342458 2575 ] Source file: module.__main__.c
+[2021-09-28T09:03:14.342473 2575 ] Object file: module.__main__.o
+[2021-09-28T09:03:14.342505 2575 ] Trying direct lookup
+[2021-09-28T09:03:14.342685 2575 ] No d667l0hbaueqn4ee0kukenpg4j06kphom in primary storage
+[2021-09-28T09:03:14.342837 2575 ] Running preprocessor
+[2021-09-28T09:03:14.342855 2575 ] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src -E module.__main__.c
+[2021-09-28T09:03:14.345531 2569 ] Got result key from manifest
+[2021-09-28T09:03:14.359018 2580 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) compression = true
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) debug = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) disable = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.359018 2580 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) path = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) recache = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) stats = true
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.359018 2580 ] Config: (default) umask = 
+[2021-09-28T09:03:14.359149 2580 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/MainProgram.c
+[2021-09-28T09:03:14.359177 2580 ] Hostname: hashashin
+[2021-09-28T09:03:14.359186 2580 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.359194 2580 ] Compiler type: gcc
+[2021-09-28T09:03:14.359343 2580 ] Source file: static_src/MainProgram.c
+[2021-09-28T09:03:14.359360 2580 ] Object file: static_src/MainProgram.o
+[2021-09-28T09:03:14.359396 2580 ] Trying direct lookup
+[2021-09-28T09:03:14.359542 2580 ] Retrieved e88cksilm14s9989q0mhlmc31qumo9eu6 from primary storage (/root/.cache/Nuitka/ccache/e/8/8cksilm14s9989q0mhlmc31qumo9eu6M)
+[2021-09-28T09:03:14.359570 2580 ] Looking for result key in /root/.cache/Nuitka/ccache/e/8/8cksilm14s9989q0mhlmc31qumo9eu6M
+[2021-09-28T09:03:14.360017 2569 ] Retrieved 54807a2i82215plqr95v14v39dj764vco from primary storage (/root/.cache/Nuitka/ccache/5/4/807a2i82215plqr95v14v39dj764vcoR)
+[2021-09-28T09:03:14.360056 2569 ] Reading result /root/.cache/Nuitka/ccache/5/4/807a2i82215plqr95v14v39dj764vcoR
+[2021-09-28T09:03:14.366901 2580 ] Got result key from manifest
+[2021-09-28T09:03:14.366953 2580 ] Retrieved 776a26kg3k39qfhgkkjegv49kghliu96i from primary storage (/root/.cache/Nuitka/ccache/7/7/6a26kg3k39qfhgkkjegv49kghliu96iR)
+[2021-09-28T09:03:14.366981 2580 ] Reading result /root/.cache/Nuitka/ccache/7/7/6a26kg3k39qfhgkkjegv49kghliu96iR
+[2021-09-28T09:03:14.367206 2569 ] Reading embedded entry #0 .o (17408 bytes)
+[2021-09-28T09:03:14.367229 2569 ] Writing to __helpers.o
+[2021-09-28T09:03:14.367365 2569 ] Succeeded getting cached result
+[2021-09-28T09:03:14.367391 2569 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.367401 2569 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.367457 2569 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/0/9/stats.lock: No such file or directory
+[2021-09-28T09:03:14.367549 2569 ] Acquired lock /root/.cache/Nuitka/ccache/0/9/stats.lock
+[2021-09-28T09:03:14.367750 2569 ] Releasing lock /root/.cache/Nuitka/ccache/0/9/stats.lock
+[2021-09-28T09:03:14.367787 2569 ] Unlink /root/.cache/Nuitka/ccache/0/9/stats.lock
+[2021-09-28T09:03:14.368291 2580 ] Reading embedded entry #0 .o (7304 bytes)
+[2021-09-28T09:03:14.368314 2580 ] Writing to static_src/MainProgram.o
+[2021-09-28T09:03:14.368397 2580 ] Succeeded getting cached result
+[2021-09-28T09:03:14.368421 2580 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.368430 2580 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.373577 2583 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) compression = true
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) debug = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) disable = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.373577 2583 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) path = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) recache = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) stats = true
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.373577 2583 ] Config: (default) umask = 
+[2021-09-28T09:03:14.373715 2583 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2021-09-28T09:03:14.373742 2583 ] Hostname: hashashin
+[2021-09-28T09:03:14.373752 2583 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.373761 2583 ] Compiler type: gcc
+[2021-09-28T09:03:14.373910 2583 ] Source file: static_src/CompiledCellType.c
+[2021-09-28T09:03:14.373924 2583 ] Object file: static_src/CompiledCellType.o
+[2021-09-28T09:03:14.373956 2583 ] Trying direct lookup
+[2021-09-28T09:03:14.374039 2583 ] Retrieved afa6fnf6ch2mk1c1fk3eq5m5bbbget9v6 from primary storage (/root/.cache/Nuitka/ccache/a/f/a6fnf6ch2mk1c1fk3eq5m5bbbget9v6M)
+[2021-09-28T09:03:14.374063 2583 ] Looking for result key in /root/.cache/Nuitka/ccache/a/f/a6fnf6ch2mk1c1fk3eq5m5bbbget9v6M
+[2021-09-28T09:03:14.378545 2580 ] Acquired lock /root/.cache/Nuitka/ccache/1/4/stats.lock
+[2021-09-28T09:03:14.381157 2583 ] Got result key from manifest
+[2021-09-28T09:03:14.381201 2583 ] Retrieved 6278klbe4325me0qbr3lmc683k4ss4rf8 from primary storage (/root/.cache/Nuitka/ccache/6/2/78klbe4325me0qbr3lmc683k4ss4rf8R)
+[2021-09-28T09:03:14.381227 2583 ] Reading result /root/.cache/Nuitka/ccache/6/2/78klbe4325me0qbr3lmc683k4ss4rf8R
+[2021-09-28T09:03:14.381411 2583 ] Reading embedded entry #0 .o (7608 bytes)
+[2021-09-28T09:03:14.381431 2583 ] Writing to static_src/CompiledCellType.o
+[2021-09-28T09:03:14.381519 2583 ] Succeeded getting cached result
+[2021-09-28T09:03:14.381541 2583 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.381551 2583 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.381616 2583 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/1/7/stats.lock: No such file or directory
+[2021-09-28T09:03:14.381711 2583 ] Acquired lock /root/.cache/Nuitka/ccache/1/7/stats.lock
+[2021-09-28T09:03:14.381901 2583 ] Releasing lock /root/.cache/Nuitka/ccache/1/7/stats.lock
+[2021-09-28T09:03:14.381936 2583 ] Unlink /root/.cache/Nuitka/ccache/1/7/stats.lock
+[2021-09-28T09:03:14.385904 2580 ] Releasing lock /root/.cache/Nuitka/ccache/1/4/stats.lock
+[2021-09-28T09:03:14.385950 2580 ] Unlink /root/.cache/Nuitka/ccache/1/4/stats.lock
+[2021-09-28T09:03:14.395273 2586 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) compression = true
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) debug = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) disable = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.395273 2586 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) path = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) recache = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) stats = true
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.395273 2586 ] Config: (default) umask = 
+[2021-09-28T09:03:14.395393 2586 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2021-09-28T09:03:14.395422 2586 ] Hostname: hashashin
+[2021-09-28T09:03:14.395431 2586 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.395438 2586 ] Compiler type: gcc
+[2021-09-28T09:03:14.395554 2586 ] Source file: static_src/CompiledFunctionType.c
+[2021-09-28T09:03:14.395564 2586 ] Object file: static_src/CompiledFunctionType.o
+[2021-09-28T09:03:14.395583 2586 ] Trying direct lookup
+[2021-09-28T09:03:14.395749 2586 ] Retrieved 7abemvkf2bpli9ep35a00gq8ilhaosnq4 from primary storage (/root/.cache/Nuitka/ccache/7/a/bemvkf2bpli9ep35a00gq8ilhaosnq4M)
+[2021-09-28T09:03:14.395766 2586 ] Looking for result key in /root/.cache/Nuitka/ccache/7/a/bemvkf2bpli9ep35a00gq8ilhaosnq4M
+[2021-09-28T09:03:14.402311 2586 ] Got result key from manifest
+[2021-09-28T09:03:14.402359 2586 ] Retrieved c65erq5u94b16sts6ln5c9rhtahserqmu from primary storage (/root/.cache/Nuitka/ccache/c/6/5erq5u94b16sts6ln5c9rhtahserqmuR)
+[2021-09-28T09:03:14.402385 2586 ] Reading result /root/.cache/Nuitka/ccache/c/6/5erq5u94b16sts6ln5c9rhtahserqmuR
+[2021-09-28T09:03:14.402720 2586 ] Reading embedded entry #0 .o (51856 bytes)
+[2021-09-28T09:03:14.402743 2586 ] Writing to static_src/CompiledFunctionType.o
+[2021-09-28T09:03:14.402940 2586 ] Succeeded getting cached result
+[2021-09-28T09:03:14.402966 2586 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.402976 2586 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.403047 2586 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/1/a/stats.lock: No such file or directory
+[2021-09-28T09:03:14.403146 2586 ] Acquired lock /root/.cache/Nuitka/ccache/1/a/stats.lock
+[2021-09-28T09:03:14.403356 2586 ] Releasing lock /root/.cache/Nuitka/ccache/1/a/stats.lock
+[2021-09-28T09:03:14.403404 2586 ] Unlink /root/.cache/Nuitka/ccache/1/a/stats.lock
+[2021-09-28T09:03:14.427785 2589 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) compression = true
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) debug = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) disable = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.427785 2589 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) path = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) recache = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) stats = true
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.427785 2589 ] Config: (default) umask = 
+[2021-09-28T09:03:14.427927 2589 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2021-09-28T09:03:14.427947 2589 ] Hostname: hashashin
+[2021-09-28T09:03:14.427957 2589 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.427967 2589 ] Compiler type: gcc
+[2021-09-28T09:03:14.428117 2589 ] Source file: static_src/CompiledGeneratorType.c
+[2021-09-28T09:03:14.428136 2589 ] Object file: static_src/CompiledGeneratorType.o
+[2021-09-28T09:03:14.428179 2589 ] Trying direct lookup
+[2021-09-28T09:03:14.428378 2589 ] Retrieved 552efl52rep0jmud41hgma3n1fgkvv9qk from primary storage (/root/.cache/Nuitka/ccache/5/5/2efl52rep0jmud41hgma3n1fgkvv9qkM)
+[2021-09-28T09:03:14.428409 2589 ] Looking for result key in /root/.cache/Nuitka/ccache/5/5/2efl52rep0jmud41hgma3n1fgkvv9qkM
+[2021-09-28T09:03:14.435449 2589 ] Got result key from manifest
+[2021-09-28T09:03:14.435493 2589 ] Retrieved a6c4psf69pa8sqqiebh75egrk3gveogfe from primary storage (/root/.cache/Nuitka/ccache/a/6/c4psf69pa8sqqiebh75egrk3gveogfeR)
+[2021-09-28T09:03:14.435517 2589 ] Reading result /root/.cache/Nuitka/ccache/a/6/c4psf69pa8sqqiebh75egrk3gveogfeR
+[2021-09-28T09:03:14.436440 2589 ] Reading embedded entry #0 .o (124168 bytes)
+[2021-09-28T09:03:14.436465 2589 ] Writing to static_src/CompiledGeneratorType.o
+[2021-09-28T09:03:14.436744 2589 ] Succeeded getting cached result
+[2021-09-28T09:03:14.436769 2589 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.436779 2589 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.436847 2589 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/1/d/stats.lock: No such file or directory
+[2021-09-28T09:03:14.436948 2589 ] Acquired lock /root/.cache/Nuitka/ccache/1/d/stats.lock
+[2021-09-28T09:03:14.437137 2589 ] Releasing lock /root/.cache/Nuitka/ccache/1/d/stats.lock
+[2021-09-28T09:03:14.437175 2589 ] Unlink /root/.cache/Nuitka/ccache/1/d/stats.lock
+[2021-09-28T09:03:14.460878 2575 ] Got result key from preprocessor
+[2021-09-28T09:03:14.476846 2575 ] No 3c9aqg7adl628abp6ok5u4ludof05viee in primary storage
+[2021-09-28T09:03:14.476896 2575 ] Running real compiler
+[2021-09-28T09:03:14.476995 2575 ] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.__main__.o module.__main__.c
+[2021-09-28T09:03:14.616629 2598 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) compression = true
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) debug = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) disable = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.616629 2598 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) path = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) recache = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) stats = true
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.616629 2598 ] Config: (default) umask = 
+[2021-09-28T09:03:14.616774 2598 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledCodeHelpers.c
+[2021-09-28T09:03:14.616805 2598 ] Hostname: hashashin
+[2021-09-28T09:03:14.616814 2598 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.616822 2598 ] Compiler type: gcc
+[2021-09-28T09:03:14.616967 2598 ] Source file: static_src/CompiledCodeHelpers.c
+[2021-09-28T09:03:14.616983 2598 ] Object file: static_src/CompiledCodeHelpers.o
+[2021-09-28T09:03:14.617017 2598 ] Trying direct lookup
+[2021-09-28T09:03:14.617221 2598 ] Retrieved 9348lek5td11s6rfju3r9g4g1elutoos6 from primary storage (/root/.cache/Nuitka/ccache/9/3/48lek5td11s6rfju3r9g4g1elutoos6M)
+[2021-09-28T09:03:14.617250 2598 ] Looking for result key in /root/.cache/Nuitka/ccache/9/3/48lek5td11s6rfju3r9g4g1elutoos6M
+[2021-09-28T09:03:14.638647 2602 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) compression = true
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) debug = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) disable = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.638647 2602 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) path = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) recache = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) stats = true
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.638647 2602 ] Config: (default) umask = 
+[2021-09-28T09:03:14.638793 2602 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2021-09-28T09:03:14.638825 2602 ] Hostname: hashashin
+[2021-09-28T09:03:14.638835 2602 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.638843 2602 ] Compiler type: gcc
+[2021-09-28T09:03:14.638995 2602 ] Source file: static_src/InspectPatcher.c
+[2021-09-28T09:03:14.639011 2602 ] Object file: static_src/InspectPatcher.o
+[2021-09-28T09:03:14.639039 2602 ] Trying direct lookup
+[2021-09-28T09:03:14.639135 2602 ] Retrieved 9c98tji2m0l0tpijl27sgppbi5kj7kgg8 from primary storage (/root/.cache/Nuitka/ccache/9/c/98tji2m0l0tpijl27sgppbi5kj7kgg8M)
+[2021-09-28T09:03:14.639164 2602 ] Looking for result key in /root/.cache/Nuitka/ccache/9/c/98tji2m0l0tpijl27sgppbi5kj7kgg8M
+[2021-09-28T09:03:14.642997 2598 ] Got result key from manifest
+[2021-09-28T09:03:14.643069 2598 ] Retrieved 7177mpo1dk4r3d48205eilubsrmnt2odi from primary storage (/root/.cache/Nuitka/ccache/7/1/77mpo1dk4r3d48205eilubsrmnt2odiR)
+[2021-09-28T09:03:14.643094 2598 ] Reading result /root/.cache/Nuitka/ccache/7/1/77mpo1dk4r3d48205eilubsrmnt2odiR
+[2021-09-28T09:03:14.643605 2598 ] Reading embedded entry #0 .o (693520 bytes)
+[2021-09-28T09:03:14.643630 2598 ] Writing to static_src/CompiledCodeHelpers.o
+[2021-09-28T09:03:14.646465 2602 ] Got result key from manifest
+[2021-09-28T09:03:14.646274 2598 ] Succeeded getting cached result
+[2021-09-28T09:03:14.646524 2602 ] Retrieved 99cdt5regf4bfaaan3bt2hgtkfeo87qoe from primary storage (/root/.cache/Nuitka/ccache/9/9/cdt5regf4bfaaan3bt2hgtkfeo87qoeR)
+[2021-09-28T09:03:14.646534 2598 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.646545 2598 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.646547 2602 ] Reading result /root/.cache/Nuitka/ccache/9/9/cdt5regf4bfaaan3bt2hgtkfeo87qoeR
+[2021-09-28T09:03:14.646620 2598 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/2/6/stats.lock: No such file or directory
+[2021-09-28T09:03:14.646764 2602 ] Reading embedded entry #0 .o (12240 bytes)
+[2021-09-28T09:03:14.646777 2598 ] Acquired lock /root/.cache/Nuitka/ccache/2/6/stats.lock
+[2021-09-28T09:03:14.646790 2602 ] Writing to static_src/InspectPatcher.o
+[2021-09-28T09:03:14.646886 2602 ] Succeeded getting cached result
+[2021-09-28T09:03:14.646906 2602 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.646916 2602 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.646972 2602 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/2/a/stats.lock: No such file or directory
+[2021-09-28T09:03:14.646993 2598 ] Releasing lock /root/.cache/Nuitka/ccache/2/6/stats.lock
+[2021-09-28T09:03:14.647031 2598 ] Unlink /root/.cache/Nuitka/ccache/2/6/stats.lock
+[2021-09-28T09:03:14.647054 2602 ] Acquired lock /root/.cache/Nuitka/ccache/2/a/stats.lock
+[2021-09-28T09:03:14.647234 2602 ] Releasing lock /root/.cache/Nuitka/ccache/2/a/stats.lock
+[2021-09-28T09:03:14.647267 2602 ] Unlink /root/.cache/Nuitka/ccache/2/a/stats.lock
+[2021-09-28T09:03:14.654804 2604 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) base_dir = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) compiler = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) compiler_type = auto
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) compression = true
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) compression_level = 0
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) cpp_extension = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) debug = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) debug_dir = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) depend_mode = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) direct_mode = true
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) disable = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) file_clone = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) hard_link = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) hash_dir = true
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) ignore_options = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) inode_cache = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:03:14.654804 2604 ] Config: (environment) log_file = /root/RemaxDos/lib/CamTableOverFlow.build/ccache-2551.txt
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) max_files = 0
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) path = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) prefix_command = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) read_only = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) read_only_direct = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) recache = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) reshare = false
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) secondary_storage = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) sloppiness = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) stats = true
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) stats_log = 
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:03:14.654804 2604 ] Config: (default) umask = 
+[2021-09-28T09:03:14.654943 2604 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/MetaPathBasedLoader.c
+[2021-09-28T09:03:14.654970 2604 ] Hostname: hashashin
+[2021-09-28T09:03:14.654979 2604 ] Working directory: /root/RemaxDos/lib/CamTableOverFlow.build
+[2021-09-28T09:03:14.654987 2604 ] Compiler type: gcc
+[2021-09-28T09:03:14.655134 2604 ] Source file: static_src/MetaPathBasedLoader.c
+[2021-09-28T09:03:14.655148 2604 ] Object file: static_src/MetaPathBasedLoader.o
+[2021-09-28T09:03:14.655175 2604 ] Trying direct lookup
+[2021-09-28T09:03:14.655359 2604 ] Retrieved 59fdc2ekp0q0913dj9khh2elpg3r3cqce from primary storage (/root/.cache/Nuitka/ccache/5/9/fdc2ekp0q0913dj9khh2elpg3r3cqceM)
+[2021-09-28T09:03:14.655385 2604 ] Looking for result key in /root/.cache/Nuitka/ccache/5/9/fdc2ekp0q0913dj9khh2elpg3r3cqceM
+[2021-09-28T09:03:14.662532 2604 ] Got result key from manifest
+[2021-09-28T09:03:14.662584 2604 ] Retrieved 6135st1644tmhpog7nb6bgnih8cerv03o from primary storage (/root/.cache/Nuitka/ccache/6/1/35st1644tmhpog7nb6bgnih8cerv03oR)
+[2021-09-28T09:03:14.662606 2604 ] Reading result /root/.cache/Nuitka/ccache/6/1/35st1644tmhpog7nb6bgnih8cerv03oR
+[2021-09-28T09:03:14.662856 2604 ] Reading embedded entry #0 .o (31472 bytes)
+[2021-09-28T09:03:14.662877 2604 ] Writing to static_src/MetaPathBasedLoader.o
+[2021-09-28T09:03:14.663021 2604 ] Succeeded getting cached result
+[2021-09-28T09:03:14.663044 2604 ] Result: direct_cache_hit
+[2021-09-28T09:03:14.663054 2604 ] Result: primary_storage_hit
+[2021-09-28T09:03:14.663127 2604 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/2/c/stats.lock: No such file or directory
+[2021-09-28T09:03:14.663227 2604 ] Acquired lock /root/.cache/Nuitka/ccache/2/c/stats.lock
+[2021-09-28T09:03:14.663425 2604 ] Releasing lock /root/.cache/Nuitka/ccache/2/c/stats.lock
+[2021-09-28T09:03:14.663464 2604 ] Unlink /root/.cache/Nuitka/ccache/2/c/stats.lock
+[2021-09-28T09:03:15.018828 2575 ] Using default compression level 1
+[2021-09-28T09:03:15.018972 2575 ] Storing result file module.__main__.o
+[2021-09-28T09:03:15.018995 2575 ] Storing embedded file #0 .o (18784 bytes) from module.__main__.o
+[2021-09-28T09:03:15.019403 2575 ] Stored 3c9aqg7adl628abp6ok5u4ludof05viee in primary storage (/root/.cache/Nuitka/ccache/3/c/9aqg7adl628abp6ok5u4ludof05vieeR)
+[2021-09-28T09:03:15.019493 2575 ] Adding result key to /root/.cache/Nuitka/ccache/d/6/67l0hbaueqn4ee0kukenpg4j06kphomM
+[2021-09-28T09:03:15.020689 2575 ] Using default compression level 1
+[2021-09-28T09:03:15.021530 2575 ] Stored d667l0hbaueqn4ee0kukenpg4j06kphom in primary storage (/root/.cache/Nuitka/ccache/d/6/67l0hbaueqn4ee0kukenpg4j06kphomM)
+[2021-09-28T09:03:15.021674 2575 ] Result: cache_miss
+[2021-09-28T09:03:15.021691 2575 ] Result: direct_cache_miss
+[2021-09-28T09:03:15.021700 2575 ] Result: preprocessed_cache_miss
+[2021-09-28T09:03:15.021708 2575 ] Result: primary_storage_miss
+[2021-09-28T09:03:15.021765 2575 ] Acquired lock /root/.cache/Nuitka/ccache/d/stats.lock
+[2021-09-28T09:03:15.021954 2575 ] Releasing lock /root/.cache/Nuitka/ccache/d/stats.lock
+[2021-09-28T09:03:15.021992 2575 ] Unlink /root/.cache/Nuitka/ccache/d/stats.lock
+[2021-09-28T09:03:15.022037 2575 ] Acquired lock /root/.cache/Nuitka/ccache/3/stats.lock
+[2021-09-28T09:03:15.032203 2575 ] Releasing lock /root/.cache/Nuitka/ccache/3/stats.lock
+[2021-09-28T09:03:15.032258 2575 ] Unlink /root/.cache/Nuitka/ccache/3/stats.lock
+[2021-09-28T09:03:15.032307 2575 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.stderr.WPCG9T
+[2021-09-28T09:03:15.032334 2575 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.stdout.GSpQcW
+[2021-09-28T09:03:15.032362 2575 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.psG5eW
+[2021-09-28T09:03:15.032391 2575 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.0wc3rS.i
+[2021-09-28T09:03:15.032670 2575 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.0wc3rS

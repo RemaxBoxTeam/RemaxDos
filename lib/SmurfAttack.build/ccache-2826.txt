@@ -1,0 +1,752 @@
+[2021-09-28T09:07:42.974159 2836 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) base_dir = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) compiler = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) compression = true
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) debug = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) disable = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) file_clone = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) hard_link = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:42.974159 2836 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) max_files = 0
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) path = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) read_only = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) recache = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) reshare = false
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) stats = true
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) stats_log = 
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:42.974159 2836 ] Config: (default) umask = 
+[2021-09-28T09:07:42.974294 2836 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __constants.c
+[2021-09-28T09:07:42.974311 2836 ] Hostname: hashashin
+[2021-09-28T09:07:42.974319 2836 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:42.974326 2836 ] Compiler type: gcc
+[2021-09-28T09:07:42.974471 2836 ] Source file: __constants.c
+[2021-09-28T09:07:42.974485 2836 ] Object file: __constants.o
+[2021-09-28T09:07:42.974512 2836 ] Trying direct lookup
+[2021-09-28T09:07:42.974582 2836 ] Retrieved 8020i3e1dgkkavtfi6icr9ti3eb565q4k from primary storage (/root/.cache/Nuitka/ccache/8/0/20i3e1dgkkavtfi6icr9ti3eb565q4kM)
+[2021-09-28T09:07:42.974618 2836 ] Looking for result key in /root/.cache/Nuitka/ccache/8/0/20i3e1dgkkavtfi6icr9ti3eb565q4kM
+[2021-09-28T09:07:42.979564 2836 ] Got result key from manifest
+[2021-09-28T09:07:42.979610 2836 ] Retrieved 19da40idtsfj6qpfkrfmbd2fn5ts7oglg from primary storage (/root/.cache/Nuitka/ccache/1/9/da40idtsfj6qpfkrfmbd2fn5ts7oglgR)
+[2021-09-28T09:07:42.979632 2836 ] Reading result /root/.cache/Nuitka/ccache/1/9/da40idtsfj6qpfkrfmbd2fn5ts7oglgR
+[2021-09-28T09:07:42.979727 2836 ] Reading embedded entry #0 .o (4664 bytes)
+[2021-09-28T09:07:42.979745 2836 ] Writing to __constants.o
+[2021-09-28T09:07:42.979834 2836 ] Succeeded getting cached result
+[2021-09-28T09:07:42.979856 2836 ] Result: direct_cache_hit
+[2021-09-28T09:07:42.979865 2836 ] Result: primary_storage_hit
+[2021-09-28T09:07:42.979938 2836 ] Acquired lock /root/.cache/Nuitka/ccache/1/4/stats.lock
+[2021-09-28T09:07:42.980166 2836 ] Releasing lock /root/.cache/Nuitka/ccache/1/4/stats.lock
+[2021-09-28T09:07:42.980200 2836 ] Unlink /root/.cache/Nuitka/ccache/1/4/stats.lock
+[2021-09-28T09:07:42.984565 2839 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) base_dir = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) compiler = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) compression = true
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) debug = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:42.984565 2839 ] Config: (environment) disable = true
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) file_clone = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) hard_link = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:42.984565 2839 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) max_files = 0
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) path = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) read_only = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) recache = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) reshare = false
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) stats = true
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) stats_log = 
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:42.984565 2839 ] Config: (default) umask = 
+[2021-09-28T09:07:42.984701 2839 ] ccache is disabled
+[2021-09-28T09:07:42.984731 2839 ] Failed; falling back to running the real compiler
+[2021-09-28T09:07:42.984747 2839 ] Executing /usr/bin/gcc -o __constants_data.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __constants_data.c
+[2021-09-28T09:07:42.984757 2839 ] Result: disabled
+[2021-09-28T09:07:43.002446 2844 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) compression = true
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) debug = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) disable = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.002446 2844 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) path = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) recache = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) stats = true
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.002446 2844 ] Config: (default) umask = 
+[2021-09-28T09:07:43.002603 2844 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __helpers.c
+[2021-09-28T09:07:43.002638 2844 ] Hostname: hashashin
+[2021-09-28T09:07:43.002649 2844 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.002657 2844 ] Compiler type: gcc
+[2021-09-28T09:07:43.002914 2844 ] Source file: __helpers.c
+[2021-09-28T09:07:43.002933 2844 ] Object file: __helpers.o
+[2021-09-28T09:07:43.002964 2844 ] Trying direct lookup
+[2021-09-28T09:07:43.003135 2844 ] Retrieved ac83nf1aug35jp0j58e5aqn0i0pi8aa2g from primary storage (/root/.cache/Nuitka/ccache/a/c/83nf1aug35jp0j58e5aqn0i0pi8aa2gM)
+[2021-09-28T09:07:43.003165 2844 ] Looking for result key in /root/.cache/Nuitka/ccache/a/c/83nf1aug35jp0j58e5aqn0i0pi8aa2gM
+[2021-09-28T09:07:43.010306 2844 ] Got result key from manifest
+[2021-09-28T09:07:43.010353 2844 ] Retrieved bd8f7s8gjo5rvftkt3bk0a21ahbv73mho from primary storage (/root/.cache/Nuitka/ccache/b/d/8f7s8gjo5rvftkt3bk0a21ahbv73mhoR)
+[2021-09-28T09:07:43.010371 2844 ] Reading result /root/.cache/Nuitka/ccache/b/d/8f7s8gjo5rvftkt3bk0a21ahbv73mhoR
+[2021-09-28T09:07:43.010556 2844 ] Reading embedded entry #0 .o (12728 bytes)
+[2021-09-28T09:07:43.010574 2844 ] Writing to __helpers.o
+[2021-09-28T09:07:43.010682 2844 ] Succeeded getting cached result
+[2021-09-28T09:07:43.010706 2844 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.010716 2844 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.010777 2844 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/1/c/stats.lock: No such file or directory
+[2021-09-28T09:07:43.010874 2844 ] Acquired lock /root/.cache/Nuitka/ccache/1/c/stats.lock
+[2021-09-28T09:07:43.011054 2844 ] Releasing lock /root/.cache/Nuitka/ccache/1/c/stats.lock
+[2021-09-28T09:07:43.011087 2844 ] Unlink /root/.cache/Nuitka/ccache/1/c/stats.lock
+[2021-09-28T09:07:43.014870 2847 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) compression = true
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) debug = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) disable = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.014870 2847 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) path = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) recache = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) stats = true
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.014870 2847 ] Config: (default) umask = 
+[2021-09-28T09:07:43.014989 2847 ] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src __loader.c
+[2021-09-28T09:07:43.015021 2847 ] Hostname: hashashin
+[2021-09-28T09:07:43.015031 2847 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.015039 2847 ] Compiler type: gcc
+[2021-09-28T09:07:43.015199 2847 ] Source file: __loader.c
+[2021-09-28T09:07:43.015216 2847 ] Object file: __loader.o
+[2021-09-28T09:07:43.015247 2847 ] Trying direct lookup
+[2021-09-28T09:07:43.015318 2847 ] Retrieved 51dcbh0b17mh57tvqjepceuq9qv8dqss2 from primary storage (/root/.cache/Nuitka/ccache/5/1/dcbh0b17mh57tvqjepceuq9qv8dqss2M)
+[2021-09-28T09:07:43.015345 2847 ] Looking for result key in /root/.cache/Nuitka/ccache/5/1/dcbh0b17mh57tvqjepceuq9qv8dqss2M
+[2021-09-28T09:07:43.020362 2847 ] Got result key from manifest
+[2021-09-28T09:07:43.020411 2847 ] Retrieved b2e42r3uvgv1fju628p5sijtmjvpgv1ju from primary storage (/root/.cache/Nuitka/ccache/b/2/e42r3uvgv1fju628p5sijtmjvpgv1juR)
+[2021-09-28T09:07:43.020440 2847 ] Reading result /root/.cache/Nuitka/ccache/b/2/e42r3uvgv1fju628p5sijtmjvpgv1juR
+[2021-09-28T09:07:43.020560 2847 ] Reading embedded entry #0 .o (2648 bytes)
+[2021-09-28T09:07:43.020580 2847 ] Writing to __loader.o
+[2021-09-28T09:07:43.020668 2847 ] Succeeded getting cached result
+[2021-09-28T09:07:43.020691 2847 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.020702 2847 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.020768 2847 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/1/f/stats.lock: No such file or directory
+[2021-09-28T09:07:43.020878 2847 ] Acquired lock /root/.cache/Nuitka/ccache/1/f/stats.lock
+[2021-09-28T09:07:43.021112 2847 ] Releasing lock /root/.cache/Nuitka/ccache/1/f/stats.lock
+[2021-09-28T09:07:43.021156 2847 ] Unlink /root/.cache/Nuitka/ccache/1/f/stats.lock
+[2021-09-28T09:07:43.031285 2850 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) compression = true
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) debug = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) disable = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.031285 2850 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) path = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) recache = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) stats = true
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.031285 2850 ] Config: (default) umask = 
+[2021-09-28T09:07:43.031385 2850 ] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src module.__main__.c
+[2021-09-28T09:07:43.031407 2850 ] Hostname: hashashin
+[2021-09-28T09:07:43.031413 2850 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.031419 2850 ] Compiler type: gcc
+[2021-09-28T09:07:43.031516 2850 ] Source file: module.__main__.c
+[2021-09-28T09:07:43.031526 2850 ] Object file: module.__main__.o
+[2021-09-28T09:07:43.031556 2850 ] Trying direct lookup
+[2021-09-28T09:07:43.031723 2850 ] No 662actu7tg7mn1e2t7srk92d0cjlrqmag in primary storage
+[2021-09-28T09:07:43.031834 2850 ] Running preprocessor
+[2021-09-28T09:07:43.031846 2850 ] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src -E module.__main__.c
+[2021-09-28T09:07:43.043533 2855 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) compression = true
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) debug = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) disable = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.043533 2855 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) path = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) recache = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) stats = true
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.043533 2855 ] Config: (default) umask = 
+[2021-09-28T09:07:43.043652 2855 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/MainProgram.c
+[2021-09-28T09:07:43.043670 2855 ] Hostname: hashashin
+[2021-09-28T09:07:43.043679 2855 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.043686 2855 ] Compiler type: gcc
+[2021-09-28T09:07:43.043826 2855 ] Source file: static_src/MainProgram.c
+[2021-09-28T09:07:43.043842 2855 ] Object file: static_src/MainProgram.o
+[2021-09-28T09:07:43.043870 2855 ] Trying direct lookup
+[2021-09-28T09:07:43.044009 2855 ] Retrieved e88cksilm14s9989q0mhlmc31qumo9eu6 from primary storage (/root/.cache/Nuitka/ccache/e/8/8cksilm14s9989q0mhlmc31qumo9eu6M)
+[2021-09-28T09:07:43.044047 2855 ] Looking for result key in /root/.cache/Nuitka/ccache/e/8/8cksilm14s9989q0mhlmc31qumo9eu6M
+[2021-09-28T09:07:43.049755 2855 ] Got result key from manifest
+[2021-09-28T09:07:43.049799 2855 ] Retrieved 776a26kg3k39qfhgkkjegv49kghliu96i from primary storage (/root/.cache/Nuitka/ccache/7/7/6a26kg3k39qfhgkkjegv49kghliu96iR)
+[2021-09-28T09:07:43.049824 2855 ] Reading result /root/.cache/Nuitka/ccache/7/7/6a26kg3k39qfhgkkjegv49kghliu96iR
+[2021-09-28T09:07:43.049975 2855 ] Reading embedded entry #0 .o (7304 bytes)
+[2021-09-28T09:07:43.049995 2855 ] Writing to static_src/MainProgram.o
+[2021-09-28T09:07:43.050099 2855 ] Succeeded getting cached result
+[2021-09-28T09:07:43.050124 2855 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.050133 2855 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.050197 2855 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/2/7/stats.lock: No such file or directory
+[2021-09-28T09:07:43.050299 2855 ] Acquired lock /root/.cache/Nuitka/ccache/2/7/stats.lock
+[2021-09-28T09:07:43.050509 2855 ] Releasing lock /root/.cache/Nuitka/ccache/2/7/stats.lock
+[2021-09-28T09:07:43.050548 2855 ] Unlink /root/.cache/Nuitka/ccache/2/7/stats.lock
+[2021-09-28T09:07:43.063453 2858 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) compression = true
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) debug = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) disable = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.063453 2858 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) path = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) recache = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) stats = true
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.063453 2858 ] Config: (default) umask = 
+[2021-09-28T09:07:43.063598 2858 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2021-09-28T09:07:43.063623 2858 ] Hostname: hashashin
+[2021-09-28T09:07:43.063716 2858 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.063740 2858 ] Compiler type: gcc
+[2021-09-28T09:07:43.063890 2858 ] Source file: static_src/CompiledCellType.c
+[2021-09-28T09:07:43.063905 2858 ] Object file: static_src/CompiledCellType.o
+[2021-09-28T09:07:43.063938 2858 ] Trying direct lookup
+[2021-09-28T09:07:43.064059 2858 ] Retrieved afa6fnf6ch2mk1c1fk3eq5m5bbbget9v6 from primary storage (/root/.cache/Nuitka/ccache/a/f/a6fnf6ch2mk1c1fk3eq5m5bbbget9v6M)
+[2021-09-28T09:07:43.064085 2858 ] Looking for result key in /root/.cache/Nuitka/ccache/a/f/a6fnf6ch2mk1c1fk3eq5m5bbbget9v6M
+[2021-09-28T09:07:43.072488 2858 ] Got result key from manifest
+[2021-09-28T09:07:43.072546 2858 ] Retrieved 6278klbe4325me0qbr3lmc683k4ss4rf8 from primary storage (/root/.cache/Nuitka/ccache/6/2/78klbe4325me0qbr3lmc683k4ss4rf8R)
+[2021-09-28T09:07:43.072586 2858 ] Reading result /root/.cache/Nuitka/ccache/6/2/78klbe4325me0qbr3lmc683k4ss4rf8R
+[2021-09-28T09:07:43.072753 2858 ] Reading embedded entry #0 .o (7608 bytes)
+[2021-09-28T09:07:43.072869 2858 ] Writing to static_src/CompiledCellType.o
+[2021-09-28T09:07:43.072961 2858 ] Succeeded getting cached result
+[2021-09-28T09:07:43.072984 2858 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.072993 2858 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.073065 2858 ] Acquired lock /root/.cache/Nuitka/ccache/2/a/stats.lock
+[2021-09-28T09:07:43.073353 2858 ] Releasing lock /root/.cache/Nuitka/ccache/2/a/stats.lock
+[2021-09-28T09:07:43.073392 2858 ] Unlink /root/.cache/Nuitka/ccache/2/a/stats.lock
+[2021-09-28T09:07:43.088298 2861 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) compression = true
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) debug = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) disable = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.088298 2861 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) path = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) recache = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) stats = true
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.088298 2861 ] Config: (default) umask = 
+[2021-09-28T09:07:43.088446 2861 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2021-09-28T09:07:43.088474 2861 ] Hostname: hashashin
+[2021-09-28T09:07:43.088484 2861 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.088491 2861 ] Compiler type: gcc
+[2021-09-28T09:07:43.088641 2861 ] Source file: static_src/CompiledFunctionType.c
+[2021-09-28T09:07:43.088653 2861 ] Object file: static_src/CompiledFunctionType.o
+[2021-09-28T09:07:43.088687 2861 ] Trying direct lookup
+[2021-09-28T09:07:43.088922 2861 ] Retrieved 7abemvkf2bpli9ep35a00gq8ilhaosnq4 from primary storage (/root/.cache/Nuitka/ccache/7/a/bemvkf2bpli9ep35a00gq8ilhaosnq4M)
+[2021-09-28T09:07:43.088949 2861 ] Looking for result key in /root/.cache/Nuitka/ccache/7/a/bemvkf2bpli9ep35a00gq8ilhaosnq4M
+[2021-09-28T09:07:43.096322 2861 ] Got result key from manifest
+[2021-09-28T09:07:43.096373 2861 ] Retrieved c65erq5u94b16sts6ln5c9rhtahserqmu from primary storage (/root/.cache/Nuitka/ccache/c/6/5erq5u94b16sts6ln5c9rhtahserqmuR)
+[2021-09-28T09:07:43.096397 2861 ] Reading result /root/.cache/Nuitka/ccache/c/6/5erq5u94b16sts6ln5c9rhtahserqmuR
+[2021-09-28T09:07:43.096721 2861 ] Reading embedded entry #0 .o (51856 bytes)
+[2021-09-28T09:07:43.096741 2861 ] Writing to static_src/CompiledFunctionType.o
+[2021-09-28T09:07:43.096991 2861 ] Succeeded getting cached result
+[2021-09-28T09:07:43.097018 2861 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.097027 2861 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.097094 2861 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/2/d/stats.lock: No such file or directory
+[2021-09-28T09:07:43.097190 2861 ] Acquired lock /root/.cache/Nuitka/ccache/2/d/stats.lock
+[2021-09-28T09:07:43.097412 2861 ] Releasing lock /root/.cache/Nuitka/ccache/2/d/stats.lock
+[2021-09-28T09:07:43.097450 2861 ] Unlink /root/.cache/Nuitka/ccache/2/d/stats.lock
+[2021-09-28T09:07:43.113934 2864 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) compression = true
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) debug = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) disable = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.113934 2864 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) path = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) recache = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) stats = true
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.113934 2864 ] Config: (default) umask = 
+[2021-09-28T09:07:43.114055 2864 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2021-09-28T09:07:43.114084 2864 ] Hostname: hashashin
+[2021-09-28T09:07:43.114094 2864 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.114102 2864 ] Compiler type: gcc
+[2021-09-28T09:07:43.114248 2864 ] Source file: static_src/CompiledGeneratorType.c
+[2021-09-28T09:07:43.114263 2864 ] Object file: static_src/CompiledGeneratorType.o
+[2021-09-28T09:07:43.114297 2864 ] Trying direct lookup
+[2021-09-28T09:07:43.114554 2864 ] Retrieved 552efl52rep0jmud41hgma3n1fgkvv9qk from primary storage (/root/.cache/Nuitka/ccache/5/5/2efl52rep0jmud41hgma3n1fgkvv9qkM)
+[2021-09-28T09:07:43.114660 2864 ] Looking for result key in /root/.cache/Nuitka/ccache/5/5/2efl52rep0jmud41hgma3n1fgkvv9qkM
+[2021-09-28T09:07:43.121003 2864 ] Got result key from manifest
+[2021-09-28T09:07:43.121046 2864 ] Retrieved a6c4psf69pa8sqqiebh75egrk3gveogfe from primary storage (/root/.cache/Nuitka/ccache/a/6/c4psf69pa8sqqiebh75egrk3gveogfeR)
+[2021-09-28T09:07:43.121071 2864 ] Reading result /root/.cache/Nuitka/ccache/a/6/c4psf69pa8sqqiebh75egrk3gveogfeR
+[2021-09-28T09:07:43.121707 2864 ] Reading embedded entry #0 .o (124168 bytes)
+[2021-09-28T09:07:43.121734 2864 ] Writing to static_src/CompiledGeneratorType.o
+[2021-09-28T09:07:43.122030 2864 ] Succeeded getting cached result
+[2021-09-28T09:07:43.122054 2864 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.122065 2864 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.122130 2864 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/3/0/stats.lock: No such file or directory
+[2021-09-28T09:07:43.122232 2864 ] Acquired lock /root/.cache/Nuitka/ccache/3/0/stats.lock
+[2021-09-28T09:07:43.122440 2864 ] Releasing lock /root/.cache/Nuitka/ccache/3/0/stats.lock
+[2021-09-28T09:07:43.122478 2864 ] Unlink /root/.cache/Nuitka/ccache/3/0/stats.lock
+[2021-09-28T09:07:43.142685 2850 ] Got result key from preprocessor
+[2021-09-28T09:07:43.142742 2850 ] No 9251tbs7sf1ajj5l8ta9e2rmkhpkirsq4 in primary storage
+[2021-09-28T09:07:43.142762 2850 ] Running real compiler
+[2021-09-28T09:07:43.142835 2850 ] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.__main__.o module.__main__.c
+[2021-09-28T09:07:43.311552 2872 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) compression = true
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) debug = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) disable = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.311552 2872 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) path = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) recache = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) stats = true
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.311552 2872 ] Config: (default) umask = 
+[2021-09-28T09:07:43.313528 2872 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/CompiledCodeHelpers.c
+[2021-09-28T09:07:43.315418 2872 ] Hostname: hashashin
+[2021-09-28T09:07:43.317515 2872 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.319051 2872 ] Compiler type: gcc
+[2021-09-28T09:07:43.319274 2872 ] Source file: static_src/CompiledCodeHelpers.c
+[2021-09-28T09:07:43.319299 2872 ] Object file: static_src/CompiledCodeHelpers.o
+[2021-09-28T09:07:43.319338 2872 ] Trying direct lookup
+[2021-09-28T09:07:43.319567 2872 ] Retrieved 9348lek5td11s6rfju3r9g4g1elutoos6 from primary storage (/root/.cache/Nuitka/ccache/9/3/48lek5td11s6rfju3r9g4g1elutoos6M)
+[2021-09-28T09:07:43.319605 2872 ] Looking for result key in /root/.cache/Nuitka/ccache/9/3/48lek5td11s6rfju3r9g4g1elutoos6M
+[2021-09-28T09:07:43.340090 2872 ] Got result key from manifest
+[2021-09-28T09:07:43.341690 2875 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) compression = true
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) debug = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) disable = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.341690 2875 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) path = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) recache = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) stats = true
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.341690 2875 ] Config: (default) umask = 
+[2021-09-28T09:07:43.341828 2875 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2021-09-28T09:07:43.341859 2875 ] Hostname: hashashin
+[2021-09-28T09:07:43.341869 2875 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.341877 2875 ] Compiler type: gcc
+[2021-09-28T09:07:43.342134 2875 ] Source file: static_src/InspectPatcher.c
+[2021-09-28T09:07:43.342154 2875 ] Object file: static_src/InspectPatcher.o
+[2021-09-28T09:07:43.342192 2875 ] Trying direct lookup
+[2021-09-28T09:07:43.342295 2875 ] Retrieved 9c98tji2m0l0tpijl27sgppbi5kj7kgg8 from primary storage (/root/.cache/Nuitka/ccache/9/c/98tji2m0l0tpijl27sgppbi5kj7kgg8M)
+[2021-09-28T09:07:43.342322 2875 ] Looking for result key in /root/.cache/Nuitka/ccache/9/c/98tji2m0l0tpijl27sgppbi5kj7kgg8M
+[2021-09-28T09:07:43.348010 2872 ] Retrieved 7177mpo1dk4r3d48205eilubsrmnt2odi from primary storage (/root/.cache/Nuitka/ccache/7/1/77mpo1dk4r3d48205eilubsrmnt2odiR)
+[2021-09-28T09:07:43.348062 2872 ] Reading result /root/.cache/Nuitka/ccache/7/1/77mpo1dk4r3d48205eilubsrmnt2odiR
+[2021-09-28T09:07:43.348560 2872 ] Reading embedded entry #0 .o (693520 bytes)
+[2021-09-28T09:07:43.348590 2872 ] Writing to static_src/CompiledCodeHelpers.o
+[2021-09-28T09:07:43.351364 2872 ] Succeeded getting cached result
+[2021-09-28T09:07:43.351412 2872 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.351423 2872 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.351510 2872 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/3/8/stats.lock: No such file or directory
+[2021-09-28T09:07:43.351634 2872 ] Acquired lock /root/.cache/Nuitka/ccache/3/8/stats.lock
+[2021-09-28T09:07:43.351881 2872 ] Releasing lock /root/.cache/Nuitka/ccache/3/8/stats.lock
+[2021-09-28T09:07:43.351924 2872 ] Unlink /root/.cache/Nuitka/ccache/3/8/stats.lock
+[2021-09-28T09:07:43.359155 2875 ] Got result key from manifest
+[2021-09-28T09:07:43.359214 2875 ] Retrieved 99cdt5regf4bfaaan3bt2hgtkfeo87qoe from primary storage (/root/.cache/Nuitka/ccache/9/9/cdt5regf4bfaaan3bt2hgtkfeo87qoeR)
+[2021-09-28T09:07:43.359235 2875 ] Reading result /root/.cache/Nuitka/ccache/9/9/cdt5regf4bfaaan3bt2hgtkfeo87qoeR
+[2021-09-28T09:07:43.359415 2875 ] Reading embedded entry #0 .o (12240 bytes)
+[2021-09-28T09:07:43.359442 2875 ] Writing to static_src/InspectPatcher.o
+[2021-09-28T09:07:43.359544 2875 ] Succeeded getting cached result
+[2021-09-28T09:07:43.359564 2875 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.359572 2875 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.359642 2875 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/3/b/stats.lock: No such file or directory
+[2021-09-28T09:07:43.359742 2875 ] Acquired lock /root/.cache/Nuitka/ccache/3/b/stats.lock
+[2021-09-28T09:07:43.359936 2875 ] Releasing lock /root/.cache/Nuitka/ccache/3/b/stats.lock
+[2021-09-28T09:07:43.359974 2875 ] Unlink /root/.cache/Nuitka/ccache/3/b/stats.lock
+[2021-09-28T09:07:43.376186 2877 ] === CCACHE 4.4 STARTED =========================================
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) absolute_paths_in_stderr = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) base_dir = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (environment) cache_dir = /root/.cache/Nuitka/ccache
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) compiler = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) compiler_check = mtime
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) compiler_type = auto
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) compression = true
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) compression_level = 0
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) cpp_extension = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) debug = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) debug_dir = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) depend_mode = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) direct_mode = true
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) disable = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) extra_files_to_hash = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) file_clone = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) hard_link = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) hash_dir = true
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) ignore_headers_in_manifest = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) ignore_options = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) inode_cache = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) keep_comments_cpp = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) limit_multiple = 0.8
+[2021-09-28T09:07:43.376186 2877 ] Config: (environment) log_file = /root/RemaxDos/lib/SmurfAttack.build/ccache-2826.txt
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) max_files = 0
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) max_size = 5.0G
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) path = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) pch_external_checksum = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) prefix_command = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) prefix_command_cpp = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) read_only = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) read_only_direct = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) recache = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) reshare = false
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) run_second_cpp = true
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) secondary_storage = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) sloppiness = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) stats = true
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) stats_log = 
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) temporary_dir = /root/.cache/Nuitka/ccache/tmp
+[2021-09-28T09:07:43.376186 2877 ] Config: (default) umask = 
+[2021-09-28T09:07:43.376320 2877 ] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/usr/local/lib/python3.9/dist-packages/nuitka/build/include -I/usr/local/lib/python3.9/dist-packages/nuitka/build/static_src static_src/MetaPathBasedLoader.c
+[2021-09-28T09:07:43.376351 2877 ] Hostname: hashashin
+[2021-09-28T09:07:43.376360 2877 ] Working directory: /root/RemaxDos/lib/SmurfAttack.build
+[2021-09-28T09:07:43.376368 2877 ] Compiler type: gcc
+[2021-09-28T09:07:43.376517 2877 ] Source file: static_src/MetaPathBasedLoader.c
+[2021-09-28T09:07:43.376532 2877 ] Object file: static_src/MetaPathBasedLoader.o
+[2021-09-28T09:07:43.376564 2877 ] Trying direct lookup
+[2021-09-28T09:07:43.376755 2877 ] Retrieved 59fdc2ekp0q0913dj9khh2elpg3r3cqce from primary storage (/root/.cache/Nuitka/ccache/5/9/fdc2ekp0q0913dj9khh2elpg3r3cqceM)
+[2021-09-28T09:07:43.376784 2877 ] Looking for result key in /root/.cache/Nuitka/ccache/5/9/fdc2ekp0q0913dj9khh2elpg3r3cqceM
+[2021-09-28T09:07:43.383874 2877 ] Got result key from manifest
+[2021-09-28T09:07:43.383992 2877 ] Retrieved 6135st1644tmhpog7nb6bgnih8cerv03o from primary storage (/root/.cache/Nuitka/ccache/6/1/35st1644tmhpog7nb6bgnih8cerv03oR)
+[2021-09-28T09:07:43.384043 2877 ] Reading result /root/.cache/Nuitka/ccache/6/1/35st1644tmhpog7nb6bgnih8cerv03oR
+[2021-09-28T09:07:43.384414 2877 ] Reading embedded entry #0 .o (31472 bytes)
+[2021-09-28T09:07:43.384439 2877 ] Writing to static_src/MetaPathBasedLoader.o
+[2021-09-28T09:07:43.384596 2877 ] Succeeded getting cached result
+[2021-09-28T09:07:43.384622 2877 ] Result: direct_cache_hit
+[2021-09-28T09:07:43.384632 2877 ] Result: primary_storage_hit
+[2021-09-28T09:07:43.384702 2877 ] lockfile_acquire: symlink /root/.cache/Nuitka/ccache/3/d/stats.lock: No such file or directory
+[2021-09-28T09:07:43.384804 2877 ] Acquired lock /root/.cache/Nuitka/ccache/3/d/stats.lock
+[2021-09-28T09:07:43.385047 2877 ] Releasing lock /root/.cache/Nuitka/ccache/3/d/stats.lock
+[2021-09-28T09:07:43.385130 2877 ] Unlink /root/.cache/Nuitka/ccache/3/d/stats.lock
+[2021-09-28T09:07:43.707877 2850 ] Using default compression level 1
+[2021-09-28T09:07:43.707986 2850 ] Storing result file module.__main__.o
+[2021-09-28T09:07:43.708001 2850 ] Storing embedded file #0 .o (23288 bytes) from module.__main__.o
+[2021-09-28T09:07:43.708300 2850 ] Stored 9251tbs7sf1ajj5l8ta9e2rmkhpkirsq4 in primary storage (/root/.cache/Nuitka/ccache/9/2/51tbs7sf1ajj5l8ta9e2rmkhpkirsq4R)
+[2021-09-28T09:07:43.708349 2850 ] Adding result key to /root/.cache/Nuitka/ccache/6/6/2actu7tg7mn1e2t7srk92d0cjlrqmagM
+[2021-09-28T09:07:43.709103 2850 ] Using default compression level 1
+[2021-09-28T09:07:43.709601 2850 ] Stored 662actu7tg7mn1e2t7srk92d0cjlrqmag in primary storage (/root/.cache/Nuitka/ccache/6/6/2actu7tg7mn1e2t7srk92d0cjlrqmagM)
+[2021-09-28T09:07:43.709632 2850 ] Result: cache_miss
+[2021-09-28T09:07:43.709641 2850 ] Result: direct_cache_miss
+[2021-09-28T09:07:43.709646 2850 ] Result: preprocessed_cache_miss
+[2021-09-28T09:07:43.709651 2850 ] Result: primary_storage_miss
+[2021-09-28T09:07:43.709719 2850 ] Acquired lock /root/.cache/Nuitka/ccache/6/stats.lock
+[2021-09-28T09:07:43.709886 2850 ] Releasing lock /root/.cache/Nuitka/ccache/6/stats.lock
+[2021-09-28T09:07:43.709911 2850 ] Unlink /root/.cache/Nuitka/ccache/6/stats.lock
+[2021-09-28T09:07:43.709946 2850 ] Acquired lock /root/.cache/Nuitka/ccache/9/stats.lock
+[2021-09-28T09:07:43.726813 2850 ] Releasing lock /root/.cache/Nuitka/ccache/9/stats.lock
+[2021-09-28T09:07:43.726871 2850 ] Unlink /root/.cache/Nuitka/ccache/9/stats.lock
+[2021-09-28T09:07:43.726930 2850 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.stderr.2HAuhH
+[2021-09-28T09:07:43.726965 2850 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.stdout.ngjWhI
+[2021-09-28T09:07:43.726999 2850 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stderr.h10vXJ
+[2021-09-28T09:07:43.727022 2850 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.sLfNtG.i
+[2021-09-28T09:07:43.727365 2850 ] Unlink /root/.cache/Nuitka/ccache/tmp/tmp.cpp_stdout.sLfNtG
