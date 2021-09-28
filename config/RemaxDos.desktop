@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=RemaxDos
-Comment=The script tools from all attack denial of service remax box team.
-Exec=gnome-terminal -t "RemaxDos 1.0.0" --geometry=600x630 -e "bash -c 'RemaxDos';-bash"
-Icon=/usr/share/icons/RemaxDos.ico
-Terminal=true
-Type=Application
-StartupNotify=false
-                     
