@@ -56,5 +56,8 @@ Smurf attacks are somewhat similar to ping floods, as both are carried out by se
 - **ping of death** is a type of attack on a computer system that involves sending a malformed or otherwise malicious ping to a computer. A correctly formed ping packet is typically 56 bytes in size, or 64 bytes when the ICMP header is considered, and 84 bytes including Internet Protocol version 4 header.
 
 
+- [lhashashinl]() - lhashashinl (Mikael Alamoot)
+
+
 
 
