@@ -32,7 +32,7 @@ cd RemaxDos
 ```
 Chmod file install
 ```
-chmod +x install.bin && pip3 install pyautogui && apt install gnome-terminal
+chmod +x install.bin && sudo pip3 install pyautogui && sudo apt install gnome-terminal
 ```
 Install 
 ```
